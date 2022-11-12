@@ -16,7 +16,7 @@ The key features are:
 ```Python
 from uuid import uuid4
 from processor.processor import AbstractProcessor, Context
-from processor.processor_group import ProcessorGroup
+from processor.group import ProcessorGroup
 
 
 class HelloContext(Context):
