@@ -5,7 +5,7 @@ license = "MIT"
 description = "Simple data processing library"
 authors = ["DFilyushin <Dmitriy.Filyushin@yandex.ru>"]
 readme = "README.md"
-packages = [{include = "data_processing_library"}]
+packages = [{include = "processor"}]
 classifiers = [
     "Intended Audience :: Information Technology",
     "Intended Audience :: System Administrators",
