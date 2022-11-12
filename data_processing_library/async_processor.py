@@ -1,4 +1,4 @@
-from processor.context import Context
+from data_processing_library.context import Context
 
 
 class AbstractAsyncProcessor:

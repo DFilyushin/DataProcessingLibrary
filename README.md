@@ -12,11 +12,10 @@ The key features are:
 
 ## Example of usage
 
-
 ```Python
 from uuid import uuid4
-from processor.processor import AbstractProcessor, Context
-from processor.group import ProcessorGroup
+from data_processing_library.processor import AbstractProcessor, Context
+from data_processing_library.group import ProcessorGroup
 
 
 class HelloContext(Context):

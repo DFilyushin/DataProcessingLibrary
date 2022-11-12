@@ -1,7 +1,7 @@
 from collections.abc import Sequence
 
-from processor.context import Context
-from processor.async_processor import AbstractAsyncProcessor
+from data_processing_library.context import Context
+from data_processing_library.async_processor import AbstractAsyncProcessor
 
 
 class AsyncProcessorGroup(AbstractAsyncProcessor):

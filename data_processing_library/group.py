@@ -1,6 +1,6 @@
 from collections.abc import Sequence
-from processor.context import Context
-from processor.processor import AbstractProcessor
+from data_processing_library.context import Context
+from data_processing_library.processor import AbstractProcessor
 
 
 class ProcessorGroup(AbstractProcessor):
